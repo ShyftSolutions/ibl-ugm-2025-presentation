@@ -1,95 +1,54 @@
-# Tomorrow's Forecast: Accelerating Innovation with AI & Smarter Context Engineering
+# IBL UGM 2025 Presentations
 
-*Shyft's 2025 IBL UGM Presentation*
+This repository contains presentations given at the IBL User Group Meeting 2025, covering AI development practices and weather service infrastructure.
 
-This presentation explores how automation, AI agents, and context engineering can accelerate innovation in weather forecasting software. It highlights the importance of foundational automation and testing, demonstrates how AI can serve as a development partner, and shows how context engineering (and tools like MCP servers) enable smarter, faster workflows.
+## 🎯 Presentations
 
-The talk concludes with practical demonstrations of AI-powered tools in action.
+### [Tomorrow's Forecast: Accelerating Innovation with AI & Smarter Context Engineering](presentations/ai-presentation.md)
+A presentation exploring how automation, AI agents, and context engineering can accelerate innovation in weather forecasting software. Highlights the importance of foundational automation and testing, demonstrates how AI can serve as a development partner, and shows how context engineering (and tools like MCP servers) enable smarter, faster workflows.
 
-## 📑 Presentation Slides
+**Key Topics:**
+- AI as a development partner
+- Context engineering principles
+- MCP (Model Context Protocol) overview
+- Practical examples and live demonstrations
 
-### 1. Title Slide
-**Theme:** Tomorrow's Forecast: Accelerating Innovation with AI & Smarter Context Engineering
-- Introduces the metaphor of "forecasting" progress
-- Teases the challenges of moving fast without automation
-- Image: Agent overwhelmed typing on multiple smoking machines, robots in background ready to help
+### [Weather Service Infrastructure - Many Things We Built](presentations/infra-presentation.md)
+A comprehensive overview of the weather service infrastructure built by the team, covering performance optimization, templating solutions, monitoring systems, and database architecture. Demonstrates practical solutions to complex infrastructure challenges and lessons learned during implementation.
 
-![Title Slide](slides/01-title-slide.jpg)
-
-### 2. Automation & Testing
-**Theme:** Foundational tools for speed
-- CI/CD pipelines and automated testing are essential for rapid iteration
-- Without these, progress stalls
-- Image: Conveyor belt producing "Build" and "Test" boxes, robot agents assembling and zapping them
-
-![Automation & Testing](slides/02-automation-testing.jpg)
-
-### 3. AI as a Development Partner
-**Theme:** AI as a junior dev that already read all the manuals
-- Helps with coding, debugging, documentation
-- Smarter context = better answers
-- Image: Robot agent typing at a desk, weather icons floating, human sipping coffee nearby
-
-![AI Development Partner](slides/03-ai-development-partner.jpg)
-
-### 4. Context Engineering 101
-**Theme:** Giving AI "just enough" information
-- Process: Research → Plan → Execute
-- Not about dumping everything, but shaping context for task success
-- Image: Agent pointing at chalkboard flowchart "Research → Plan → Execute" with doodles of clouds/gears
-
-![Context Engineering 101](slides/04-context-engineering-101.jpg)
-
-### 5. MCP Overview
-**Theme:** MCP as the translator/proxy
-- MCP servers enable agents to interact with APIs and docs more effectively
-- Acts like the "middleman communicator"
-- Image: Supercomputer holding a phone receiver, talking to a robot agent at a desk
-
-![MCP Overview](slides/05-mcp-overview.jpg)
-
-### 6. Practical Examples
-**Theme:** AI in action today
-- Agents exploring configs, pipelines, documentation with MCP
-- Practical, not futuristic
-- Image: Agent zapping a giant weather supercomputer, lightning bolts and storm icons flying out
-
-![Practical Examples](slides/06-practical-examples.jpg)
-
-### 7. Live Demo Setup
-**Theme:** Show, don't just tell
-- Demonstrate your tools working in real time
-- Prove these workflows are available today
-- Image: Agent magician pulling storm maps and satellites from a laptop, audience clapping
-
-![Live Demo Setup](slides/07-live-demo-setup.jpg)
-
-### 8. Closing / Call to Action
-**Theme:** Clearer context, faster innovation
-- Reinforce: Automation + Testing + AI + Context = Rapid Progress
-- Encourage experimentation with these tools
-- Image: Agent on a hill at sunrise, laptop projecting a forecast map, storm clouds parting
-
-![Closing Call to Action](slides/08-closing-call-to-action.jpg)
+**Key Topics:**
+- Shredder performance optimization
+- WMS cloud architecture and templating
+- Monitoring and visualization with Grafana, Prometheus, and Splunk
+- Object Elastic Database (OED) and Online Weather systems
 
 ## 📂 Repository Contents
 
-- `slides/` → Presentation slide images (renamed for clarity)
-- `presentation_overview.md` → Detailed slide-by-slide breakdown
+- `presentations/` → Presentation markdown files and slide images
+  - `ai-presentation.md` → AI development presentation overview
+  - `infra-presentation.md` → Infrastructure presentation overview
+  - `slides/` → All presentation slide images
 - `README.md` → This overview file
 
 ## 🎥 Additional Resources
 
 ### Video Content
-*Links to YouTube videos and demonstrations will be added here*
 
-- [ ] Presentation Recording
-- [ ] Live Demo Video
-- [ ] Extended Tutorial
+- **[Context Engineering and LLM Code Generation](https://www.youtube.com/watch?v=IS_y40zY-hc)**
+  Brief overview on context engineering and addressing myths that LLMs cannot create "good code" or work in large code bases.
 
-### Related Projects & GitHub Pages
-*Links to related repositories and GitHub pages will be added here*
+- **[Model Context Usage and Optimization](https://www.youtube.com/watch?v=zMM5zqesL1g)**
+  Great summary on how models use context and why context engineering can lead to better outcomes while minimizing AI costs and usage.
 
-- [ ] MCP Server Examples
-- [ ] Context Engineering Toolkit
-- [ ] Weather Forecasting AI Tools
+### Related Projects & Resources
+
+- **[FastMCP Documentation](https://gofastmcp.com/getting-started/quickstart)**
+  Getting started guide for FastMCP
+
+- **[FastMCP GitHub Repository](https://github.com/jlowin/fastmcp)**
+  Official FastMCP source code and documentation
+
+- **[Context7](https://context7.com/)**
+  MCP server for code context (potential reference for IBL Python SDK development)
+
+*Additional content and resources will be added here*
